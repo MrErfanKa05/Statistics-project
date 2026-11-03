@@ -33,21 +33,30 @@
 
 ```text
 Statistics-project/
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── README.md
-├── notebooks/
-│   └── 01_exploration.ipynb
-├── reports/
-│   └── phase1/
-│      └── phase1.pdf
-├── figures/
-├── src/
-│   ├── 01_download.py
-│   ├── 02_clean.py
-│   ├── 03_descriptive.py
-│   └── 04_plots.py
+├── data
+│   ├── processed
+│   ├── raw
+│   └── README.md
+├── figures
+│   ├── age_distribution.png
+│   ├── bmi_by_age_and_sex.png
+│   ├── bmi_by_age_group.png
+│   ├── bmi_by_sex.png
+│   ├── bmi_distribution.png
+│   └── bmi_vs_age.png
+├── notebooks
+│   └── 01_exploration.ipynb
+├── reports
+│   └── phase1
+│       └── phase1.pdf
+├── src
+│   ├── analysis.py
+│   ├── data_cleaning.py
+│   ├── data_loader.py
+│   ├── data_quality.py
+│   ├── descriptive.py
+│   ├── __init__.py
+│   └── plots.py
 ├── PROJECT_CARD.md
 ├── README.md
 └── requirements.txt
